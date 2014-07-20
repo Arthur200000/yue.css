@@ -6,7 +6,16 @@
  * Copyright (c) 2013 - 2014 by Hsiaoming Yang.
  */
 
-
+/**
+ * For a really long list of fallbacks, refer to bootstrap.css in AOSC-Dev/Homepage
+ * For better fonts, consider using online fonts provided by justfont.com or use 360's 
+ *  Google Fonts mirror (Well, you can write an auto selection).
+ * To Linux Deepin guys: I'm not sure if you are going to include Adobe's Source Han 
+ *  Sans in your dstro. You guys may need to rebuild the font and make SChinese the
+ *  main subset.
+ * Sorry again for not being able to realize the 'promise' of helping you make your
+ *  MediaWiki site better.
+ */
 
 .yue {
   font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback",  "Microsoft YaHei",  "STXihei", sans-serif;
@@ -28,7 +37,7 @@
 .yue h4,
 .yue h5,
 .yue h6 {
-  font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "STXihei", "Microsoft YaHei", "SimSun", sans-serif;
+  font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "STXihei", "SimSun", sans-serif;
   color: #222223;
 }
 .yue h1 {
